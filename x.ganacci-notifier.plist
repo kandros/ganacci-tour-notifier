@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>x.ganacci-notifier</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>sh</string>
+		<string>-c</string>
+		<string>~/.bun/bin/bun ~/coding/ganacci-tour-notifier/index.ts</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>PATH_HERE/error.log</string>
+	<key>StandardOutPath</key>
+	<string>PATH_HERE/out.log</string>
+	<key>StartCalendarInterval</key>
+	<array>
+		<dict>
+			<key>Hour</key>
+			<integer>20</integer>
+			<key>Minute</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>WorkingDirectory</key>
+	<string>PATH_HERE</string>
+</dict>
+</plist>

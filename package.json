@@ -1,0 +1,16 @@
+{
+  "name": "ganacci-tour-notifier",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/nodemailer": "^6.4.14"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "nodemailer": "^6.9.9"
+  }
+}

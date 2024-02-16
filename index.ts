@@ -20,6 +20,7 @@ const tourDates: TourDate[] = tourDatesElements
   })
   .toArray();
 
+console.log(new Date().toLocaleString());
 console.log("Next tour dates:");
 tourDates.forEach((td) => {
   console.log(`
